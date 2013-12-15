@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="CartOrderedTes1" storage="d:\my dropbox\dropbox\work\icodesystems\shoppingcart\unittest\cartorderedtes1.orderedtest" id="7b8a4da3-d4d2-454d-9404-bd2ec9529b80" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="356af4b5-78db-50ce-d726-0448f7479995" name="SaveCartTest" storage="bin\debug\icodesystems.shoppingcart.unittest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="ad2c281c-e3b9-fa43-ef81-356dc3e501f1" name="GetCartTest" storage="bin\debug\icodesystems.shoppingcart.unittest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="d4a9cf69-6c92-824a-d9c4-b63150d78501" name="DeleteCartTest" storage="bin\debug\icodesystems.shoppingcart.unittest.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>
