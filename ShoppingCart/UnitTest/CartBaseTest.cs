@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace iCodeSystems.ShoppingCart
 {
     [TestClass]
-    public class CartTest
+    public class CartBaseTest
     {
         const string SAMPLE_CART_ID = "SampleCartIdentifier";
         const string SAMPLE_CART_ITEM_ID_1 = "SampleCartItem-1";
@@ -18,7 +18,7 @@ namespace iCodeSystems.ShoppingCart
         private readonly ICart _sampleCart;
 
 
-        public CartTest()
+        public CartBaseTest()
         {
             ICartItem item1 = new CartItemBase()
             {

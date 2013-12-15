@@ -46,13 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
     <Compile Include="CartBase.cs" />
     <Compile Include="CartItemBase.cs" />
+    <Compile Include="CheckoutCartBase.cs" />
     <Compile Include="DataServiceProvider.cs" />
     <Compile Include="Exceptions\ConfigurationMissingException.cs" />
     <Compile Include="Exceptions\RepositoryNotFoundException.cs" />
+    <Compile Include="IAddress.cs" />
     <Compile Include="ICart.cs" />
     <Compile Include="ICartRepository.cs" />
+    <Compile Include="ICheckoutCart.cs" />
     <Compile Include="IIdentifyable.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="ICartItem.cs" />
@@ -60,6 +64,7 @@
     <Compile Include="Util.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
