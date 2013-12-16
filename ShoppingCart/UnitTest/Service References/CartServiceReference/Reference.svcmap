@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bbcf199a-6a7c-4ca8-a45f-041748f1eb31" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://shoppingcartwcf.local/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="ec9ac0a2-4164-4816-8b1c-a522f78d37c6" SourceId="1" SourceUrl="http://shoppingcartwcf.local/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="53efe5b4-a79e-4e9a-899c-b7e51a135110" SourceId="1" SourceUrl="http://shoppingcartwcf.local/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="3a55a8bd-5260-4e06-a783-5a7c64618f19" SourceId="1" SourceUrl="http://shoppingcartwcf.local/mex" />
+    <MetadataFile FileName="iCodeSystems.ShoppingCart.Communication.xsd" MetadataType="Schema" ID="87af08d7-dbee-41ed-9648-b64df091763b" SourceId="1" SourceUrl="http://shoppingcartwcf.local/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="d57889dc-56af-4402-a49f-7f3163585573" SourceId="1" SourceUrl="http://shoppingcartwcf.local/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

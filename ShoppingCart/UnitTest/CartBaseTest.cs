@@ -6,14 +6,14 @@ namespace iCodeSystems.ShoppingCart
     [TestClass]
     public class CartBaseTest
     {
-        const string SAMPLE_CART_ID = "SampleCartIdentifier";
-        const string SAMPLE_CART_ITEM_ID_1 = "SampleCartItem-1";
-        const string SAMPLE_CART_ITEM_ID_2 = "SampleCartItem-2";
-        const string SAMPLE_SKU_1 = "465486521236";
-        const string SAMPLE_SKU_2 = "113256595522";
-        const int QUANTITY_1 = 1;
-        const int QUANTITY_2 = 2;
-        const string PROMO_CODE = "FallSale2013";
+        internal const string SAMPLE_CART_ID = "SampleCartIdentifier";
+        internal const string SAMPLE_CART_ITEM_ID_1 = "SampleCartItem-1";
+        internal const string SAMPLE_CART_ITEM_ID_2 = "SampleCartItem-2";
+        internal const string SAMPLE_SKU_1 = "465486521236";
+        internal const string SAMPLE_SKU_2 = "113256595522";
+        internal const int QUANTITY_1 = 1;
+        internal const int QUANTITY_2 = 2;
+        internal const string PROMO_CODE = "FallSale2013";
 
         private readonly ICart _sampleCart;
 
